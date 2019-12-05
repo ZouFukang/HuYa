@@ -97,6 +97,7 @@
 		4FF7CD632398A9110064D05D /* HuYa */ = {
 			isa = PBXGroup;
 			children = (
+				4FF7CD942398DE880064D05D /* Classes */,
 				4FF7CD642398A9110064D05D /* AppDelegate.swift */,
 				4FF7CD662398A9110064D05D /* SceneDelegate.swift */,
 				4FF7CD682398A9110064D05D /* ViewController.swift */,
@@ -123,6 +124,61 @@
 				4FF7CD882398A9150064D05D /* Info.plist */,
 			);
 			path = HuYaUITests;
+			sourceTree = "<group>";
+		};
+		4FF7CD942398DE880064D05D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4FF7CD9A2398DE880064D05D /* Main */,
+				4FF7CD952398DE880064D05D /* Home */,
+				4FF7CD962398DE880064D05D /* Fun */,
+				4FF7CD972398DE880064D05D /* SubScribe */,
+				4FF7CD992398DE880064D05D /* Find */,
+				4FF7CD982398DE880064D05D /* Me */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4FF7CD952398DE880064D05D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4FF7CD962398DE880064D05D /* Fun */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fun;
+			sourceTree = "<group>";
+		};
+		4FF7CD972398DE880064D05D /* SubScribe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubScribe;
+			sourceTree = "<group>";
+		};
+		4FF7CD982398DE880064D05D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		4FF7CD992398DE880064D05D /* Find */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		4FF7CD9A2398DE880064D05D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
