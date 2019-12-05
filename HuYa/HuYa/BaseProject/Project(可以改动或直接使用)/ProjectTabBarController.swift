@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProjectTabBarController.swift
 //  HuYa
 //
 //  Created by zfk on 2019/12/5.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProjectTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        
     }
-
-
+    
 }
-
