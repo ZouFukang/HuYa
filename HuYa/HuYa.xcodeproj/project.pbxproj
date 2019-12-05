@@ -12,7 +12,6 @@
 		4FF7CD692398A9110064D05D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7CD682398A9110064D05D /* ViewController.swift */; };
 		4FF7CD6C2398A9110064D05D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF7CD6A2398A9110064D05D /* Main.storyboard */; };
 		4FF7CD6E2398A9150064D05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF7CD6D2398A9150064D05D /* Assets.xcassets */; };
-		4FF7CD712398A9150064D05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF7CD6F2398A9150064D05D /* LaunchScreen.storyboard */; };
 		4FF7CD7C2398A9150064D05D /* HuYaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7CD7B2398A9150064D05D /* HuYaTests.swift */; };
 		4FF7CD872398A9150064D05D /* HuYaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7CD862398A9150064D05D /* HuYaUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,13 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4FF7CD612398A9110064D05D /* HuYa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuYa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF7CD612398A9110064D05D /* 虎牙直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "虎牙直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF7CD642398A9110064D05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF7CD662398A9110064D05D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4FF7CD682398A9110064D05D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FF7CD6B2398A9110064D05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FF7CD6D2398A9150064D05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4FF7CD702398A9150064D05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FF7CD722398A9150064D05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF7CD772398A9150064D05D /* HuYaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuYaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF7CD7B2398A9150064D05D /* HuYaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuYaTests.swift; sourceTree = "<group>"; };
@@ -89,7 +87,7 @@
 		4FF7CD622398A9110064D05D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FF7CD612398A9110064D05D /* HuYa.app */,
+				4FF7CD612398A9110064D05D /* 虎牙直播.app */,
 				4FF7CD772398A9150064D05D /* HuYaTests.xctest */,
 				4FF7CD822398A9150064D05D /* HuYaUITests.xctest */,
 			);
@@ -104,7 +102,6 @@
 				4FF7CD682398A9110064D05D /* ViewController.swift */,
 				4FF7CD6A2398A9110064D05D /* Main.storyboard */,
 				4FF7CD6D2398A9150064D05D /* Assets.xcassets */,
-				4FF7CD6F2398A9150064D05D /* LaunchScreen.storyboard */,
 				4FF7CD722398A9150064D05D /* Info.plist */,
 			);
 			path = HuYa;
@@ -145,7 +142,7 @@
 			);
 			name = HuYa;
 			productName = HuYa;
-			productReference = 4FF7CD612398A9110064D05D /* HuYa.app */;
+			productReference = 4FF7CD612398A9110064D05D /* 虎牙直播.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4FF7CD762398A9150064D05D /* HuYaTests */ = {
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FF7CD712398A9150064D05D /* LaunchScreen.storyboard in Resources */,
 				4FF7CD6E2398A9150064D05D /* Assets.xcassets in Resources */,
 				4FF7CD6C2398A9110064D05D /* Main.storyboard in Resources */,
 			);
@@ -303,14 +299,6 @@
 				4FF7CD6B2398A9110064D05D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4FF7CD6F2398A9150064D05D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4FF7CD702398A9150064D05D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -436,13 +424,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HuYa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zs.HuYa;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "虎牙直播";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -454,13 +442,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HuYa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zs.HuYa;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "虎牙直播";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
